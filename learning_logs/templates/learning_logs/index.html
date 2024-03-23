@@ -1,0 +1,15 @@
+{% extends 'learning_logs/base.html' %}
+
+{% block page_header %}
+  <div class="p-3 mb-4 bg-light border rounded-3">
+    <div class="container-fluid py-4">
+      <h1 class="display-3">跟踪学习进度</h1>
+
+      <p class="lead">富力集团人工成本表制作小程序，让有亿点点复杂的成本表变的简单起来！</p>
+
+      <a class="btn btn-primary btn-lg mt-1"
+        href="{% url 'accounts:register' %}">注册 &raquo;</a>
+
+    </div>
+  </div>
+{% endblock page_header %}
